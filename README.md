@@ -1,6 +1,6 @@
 # Frontend Mentor - Intro component with sign up form solution
 
-This is my solution to the [Intro component with sign up form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1). I enjoy building Frontend Mentor challenges becayse they help me improve my coding skills by building realistic projects. 
+This is my solution to the [Intro component with sign up form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](/design./screenshot.png)
+<img width="1676" alt="screenshot" src="https://user-images.githubusercontent.com/66145951/134930643-f70cf340-8de5-4af5-a084-405714e4be24.png">
 
 ### Links
 
@@ -39,20 +39,23 @@ Users should be able to:
 
 ### Built with
 
+- Mobile-first workflow
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Mobile-first workflow
+- JavaScript
+
+### What I learned
+
+This was my first JavaScript Frontend Mentor challenge! I enjoyed writing my own functions (as opposed to following tutorials) and solving for edge cases. Once I built the UI and started to write my form validation functions, I realized I had to restrcture my HTML and several CSS classes in order to make those functions more readable. Excited to build more of these toy projects to practice this more!
 
 ### Continued development
 
-To show and hiide the error state, I wrote two functions that add or remove the 'error' and 'hide' classes to form control. I would like to continue to refactor this solutiion to make it easier to read!
+I wrote two functions to show and hide error states: they add or remove the `error` and `hide` classes. The error class transforms the input border color, and the hide class shows/hides the error messsage text. I would like to continue to refactor this solutiion to make it more consise and easier to read!
 
-Additionally, I was not able to solve adding the error icon inside the input box, and would love feedback on how I might implement that!
-
+Additionally, I was not able to figure out how to add the error icon inside the input box, and would love feedback on how to implement that!
 
 ## Author
 
 - Website - [Amanda Talle](http://amandatalle.io/)
 - Frontend Mentor - [@atalle](https://www.frontendmentor.io/profile/atalle)
-- Github - [@atalle](https://github.com/atalle)
