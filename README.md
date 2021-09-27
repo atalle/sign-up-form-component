@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/signup-form-component-nZPsj47JP)
 - Live Site URL: [Add live site URL here](https://atalle.github.io/sign-up-form-component/)
 
 ## My process
@@ -51,7 +51,7 @@ This was my first JavaScript Frontend Mentor challenge! I enjoyed writing my own
 
 ### Continued development
 
-I wrote two functions to show and hide error states: they add or remove the `error` and `hide` classes. The error class transforms the input border color, and the hide class shows/hides the error messsage text. I would like to continue to refactor this solutiion to make it more consise and easier to read!
+I wrote two functions to show and hide error states by adding or removing the error and hide classes. The error class transforms the input border color, and the hide class shows/hides the error message text. I would like to continue to refactor this solution to make it more concise and easier to read!
 
 Additionally, I was not able to figure out how to add the error icon inside the input box, and would love feedback on how to implement that!
 
