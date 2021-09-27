@@ -1,0 +1,175 @@
+:root {
+  --red: hsl(0, 100%, 74%);
+  --green: hsl(154, 59%, 51%);
+  --accent-blue: hsl(248, 32%, 49%);
+  --dark-blue: hsl(249, 10%, 26%);
+  --gray-blue: hsl(246, 25%, 77%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: repeat center center url("./images/bg-intro-mobile.png");
+  background-color: var(--red);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 6rem 1.5rem 3.5rem;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 1rem;
+}
+
+header h1 {
+  margin-bottom: 1rem;
+}
+
+header p {
+  font-size: 15px;
+  line-height: 25px;
+  margin-bottom: 3.75rem;
+}
+
+.banner {
+  background-color: var(--accent-blue);
+  padding: 1.25rem 3rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+}
+
+/* Form design */
+
+.form {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+}
+
+form input:focus {
+  outline: none;
+  border-color: var(--dark-blue);
+}
+
+.form-control.error input {
+  border: 2px solid var(--red);
+}
+
+.message {
+  align-self: flex-end;
+  color: var(--red);
+  font-size: 12px;
+  font-weight: 400;
+  padding-bottom: 0.5rem;
+  font-style: italic;
+}
+
+.message.hide {
+  display: none;
+}
+
+form button {
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  padding: 1.25rem;
+  margin: 0.5rem 0 0.75rem;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--green);
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+form button:hover {
+  cursor: pointer;
+  opacity: 80%;
+}
+
+.form .terms {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--gray-blue);
+}
+
+.form .terms .text-link {
+  font-weight: 600;
+  color: var(--red);
+}
+
+.text-link:hover {
+  cursor: pointer;
+  opacity: 80%;
+}
+
+.shadow {
+  box-shadow: 0 8px 1px 0px rgba(0, 0, 0, 0.15);
+}
+
+.btn-shadow {
+  box-shadow: 0 4px 1px 0px rgba(57, 153, 99, 0.8);
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  header {
+    width: 75%;
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  body {
+    background: repeat center center url("./images/bg-intro-desktop.png");
+    background-color: var(--red);
+  }
+
+  .container {
+    padding: 0 25px;
+    max-width: 1080px;
+    height: 100vh;
+    margin: auto;
+    flex-direction: row;
+  }
+
+  header {
+    margin-right: 3rem;
+    width: 50%;
+    text-align: left;
+  }
+
+  header h1 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+
+  section {
+    width: 50%;
+  }
+}
